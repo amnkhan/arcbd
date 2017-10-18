@@ -1,0 +1,85 @@
+// Top Header
+.top-header {
+    background-color: #187e47;
+    color: #fff;
+    a {
+        color: #fff;
+    }
+}
+
+// Topbar Social Icons
+.topbar-social-icons {
+    p {
+        font-family: $heading-ff;
+        font-size: 13px;
+        margin: 0;
+        .fa {
+            width: 25px;
+            height: 25px;
+            line-height: 25px;
+            text-align: center;
+            background-color: #fff;
+            color: #000;
+            &:hover {
+                opacity: 0.9;
+            }
+        }
+        .fa {
+            &.fa-facebook {
+                color: #3b5a9a;
+            }
+            &.fa-twitter {
+                color: #29a9e1;
+            }
+            &.fa-google-plus {
+                color: #df4b38;
+            }
+            &.fa-instagram {
+                color: #5e88ab;
+            }
+            &.fa-youtube {
+                color: #cb312e;
+            }
+        }
+    }
+}
+
+// Topbar-contents 
+.topbar-contents {
+    padding: 8px 0;
+}
+
+// Topbar link
+.topbar-links {
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    li {
+        float: left;
+        a {
+            font-family: $heading-ff;
+            font-size: 13px;
+            letter-spacing: 0.1rem;
+            padding: 0 15px;
+            line-height: 1.5;
+            text-transform: capitalize;
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+        select {
+            background: none;
+            letter-spacing: 0.1rem;
+            border: 0;
+            cursor: pointer;
+            &:focus {
+                outline: 0;
+            }
+            option {
+                background: #000;
+            }
+        }
+    }
+}

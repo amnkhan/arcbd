@@ -163,3 +163,93 @@ a.back-to-top:hover, a.back-to-top:focus {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
 }
+
+.top-header {
+  background-color: #187e47;
+  color: #fff;
+}
+
+.top-header a {
+  color: #fff;
+}
+
+.topbar-social-icons p {
+  font-family: "Roboto Slab", serif;
+  font-size: 13px;
+  margin: 0;
+}
+
+.topbar-social-icons p .fa {
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  background-color: #fff;
+  color: #000;
+}
+
+.topbar-social-icons p .fa:hover {
+  opacity: 0.9;
+}
+
+.topbar-social-icons p .fa.fa-facebook {
+  color: #3b5a9a;
+}
+
+.topbar-social-icons p .fa.fa-twitter {
+  color: #29a9e1;
+}
+
+.topbar-social-icons p .fa.fa-google-plus {
+  color: #df4b38;
+}
+
+.topbar-social-icons p .fa.fa-instagram {
+  color: #5e88ab;
+}
+
+.topbar-social-icons p .fa.fa-youtube {
+  color: #cb312e;
+}
+
+.topbar-contents {
+  padding: 8px 0;
+}
+
+.topbar-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.topbar-links li {
+  float: left;
+}
+
+.topbar-links li a {
+  font-family: "Roboto Slab", serif;
+  font-size: 13px;
+  letter-spacing: 0.1rem;
+  padding: 0 15px;
+  line-height: 1.5;
+  text-transform: capitalize;
+}
+
+.topbar-links li a:hover {
+  opacity: 0.8;
+}
+
+.topbar-links li select {
+  background: none;
+  letter-spacing: 0.1rem;
+  border: 0;
+  cursor: pointer;
+}
+
+.topbar-links li select:focus {
+  outline: 0;
+}
+
+.topbar-links li select option {
+  background: #000;
+}
