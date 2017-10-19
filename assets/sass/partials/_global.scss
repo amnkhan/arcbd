@@ -87,7 +87,23 @@ a{
 
 // Sectio Dark
 .section-dark {
-	background-color: #f9f9f9;
+	background-color: #e0e0e2;
+}
+.section-title {
+  h2 {
+    font-size: 30px;
+    text-transform: capitalize;
+    position: relative;
+    &::after {
+      position: absolute;
+      content: "";
+      bottom: -10px;
+      left: 0;
+      background-image: url(../images/title-bg.png);
+      width: 75px;
+      height: 6px;
+    }
+  }
 }
 
 

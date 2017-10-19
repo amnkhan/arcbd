@@ -1,0 +1,24 @@
+.single-cn-widget {
+    
+    img {
+        width: 100%;
+    }
+    &:hover {
+        div {
+            background-color: $secondary-color;
+        }
+    }
+    div {
+        display: block;
+        background-color: $primary-color;
+        transition: $transition;
+        h2 {
+            margin: 0;
+            text-align: center;
+            font-size: 18px;
+            color: #fff;
+            text-transform: uppercase;
+            padding: 15px 0;
+        }
+    }
+}
