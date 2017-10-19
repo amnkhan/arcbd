@@ -681,3 +681,41 @@ a.back-to-top:hover, a.back-to-top:focus {
   bottom: -10px;
   text-shadow: 0px 1px 0px #ccc;
 }
+
+.single-post-widget {
+  margin-bottom: 50px;
+}
+
+.single-post-widget .media-left {
+  width: 170px;
+}
+
+.single-post-widget .media-left img {
+  width: 100%;
+}
+
+.single-post-widget .media-right a {
+  color: #721817;
+}
+
+.single-post-widget .media-right h2 {
+  font-size: 17px;
+  margin-top: 0;
+  letter-spacing: 0.1rem;
+}
+
+.single-post-widget .media-right h2 a {
+  color: #2a2a2a;
+}
+
+.single-post-widget .media-right .post-info p {
+  font-style: italic;
+  font-size: 13px;
+  font-family: "Lato", sans-serif;
+}
+
+.single-post-widget .media-right p {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+}
