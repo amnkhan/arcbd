@@ -33,6 +33,38 @@ a a:focus {
   outline: none;
 }
 
+.btn-common {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background-color: #ddd;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 10px 28px;
+}
+
+.btn-common:hover {
+  color: #fff;
+  background-color: #c4c4c4;
+}
+
+.btn-orange {
+  background-color: #fa9f42;
+}
+
+.btn-orange:hover {
+  color: #fff;
+  background-color: #f98610;
+}
+
+.btn-green {
+  background-color: #187e47;
+}
+
+.btn-green:hover {
+  color: #fff;
+  background-color: #10532f;
+}
+
 .section-dark {
   background-color: #f9f9f9;
 }
@@ -252,4 +284,122 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .topbar-links li select option {
   background: #000;
+}
+
+.bottom-header {
+  padding-top: 40px;
+}
+
+.header-single-cta p {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #2a2a2a;
+}
+
+.header-single-cta p span {
+  color: #721817;
+  margin-right: 10px;
+}
+
+.header-single-cta .btn-common {
+  font-size: 14px;
+}
+
+.navigation {
+  margin-top: 20px;
+}
+
+.navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation ul ul {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  display: none;
+  position: absolute;
+  top: 0;
+  right: -100%;
+  text-align: left;
+  width: 230px;
+  z-index: 1;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  border-left: 8px solid #fa9f42;
+}
+
+.navigation ul a {
+  display: block;
+  color: #2a2a2a;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 10px 25px;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+}
+
+.navigation ul li {
+  position: relative;
+}
+
+.navigation ul li:last-child a {
+  border-bottom: 0;
+}
+
+.navigation ul li:hover > ul {
+  display: block;
+  -webkit-animation: fadeInUpMenu 0.4s;
+  -moz-animation: fadeInUpMenu 0.4s;
+  -ms-animation: fadeInUpMenu 0.4s;
+  -o-animation: fadeInUpMenu 0.4s;
+  animation: fadeInUpMenu 0.4s;
+}
+
+.navigation > ul > li {
+  float: left;
+}
+
+.navigation > ul > li > ul {
+  top: 100%;
+  right: inherit;
+  text-align: left;
+  left: auto;
+}
+
+.navigation > ul > li > ul li a:hover {
+  background-color: #fa9f42;
+}
+
+.navigation > ul > li > a {
+  border-bottom: 0;
+  font-size: 15px;
+  color: #2a2a2a;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  letter-spacing: 0.04rem;
+  line-height: 30px;
+  text-transform: capitalize !important;
+  padding: 10px 35px;
+  text-transform: capitalize;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.navigation > ul > li > a:hover {
+  color: #fff;
+  background-color: #187e47;
+}
+
+.navigation .menu-icon {
+  background-color: rgba(255, 255, 255, 0.025);
+  font-size: 26px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  width: 60px;
 }

@@ -83,3 +83,133 @@
         }
     }
 }
+
+// bottom-header
+.bottom-header {
+    padding-top: 40px;
+}
+
+// Header CTA
+.header-single-cta {
+    p {
+        font-family: $body-secondary-ff;
+        font-size: 14px;
+        font-weight: 400;
+        color: #2a2a2a;
+        span {
+            color: #721817;
+            margin-right: 10px;
+        }
+    }
+    .btn-common {
+        font-size: 14px;
+    }
+}
+
+
+// Navigation
+.navigation {
+    margin-top: 20px;
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+
+		ul {
+			background-color: #fff;
+			box-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
+			display: none;
+			// padding: 10px 0;
+			position: absolute;
+			top: 0;
+			right: -100%;
+			text-align: left;
+			width: 230px;
+			z-index: 1;
+			-webkit-animation-name: fadeIn;
+            animation-name: fadeIn;
+            border-left: 8px solid $secondary-color;
+		}
+
+		a {
+			// border-bottom: 1px solid #aaa;
+            display: block;
+            color: #2a2a2a;
+			font-weight: 400;
+			line-height: 24px;
+            padding: 10px 25px;
+            font-family: $body-secondary-ff;
+            font-size: 14px;
+		}
+
+		li {
+			position: relative;
+
+			&:last-child {
+				a {
+					border-bottom: 0;
+				}
+			}
+
+			&:hover {
+				> ul {
+					display: block;
+					-webkit-animation: fadeInUpMenu 0.4s;
+					-moz-animation: fadeInUpMenu 0.4s;
+					-ms-animation: fadeInUpMenu 0.4s;
+					-o-animation: fadeInUpMenu 0.4s;
+					animation: fadeInUpMenu 0.4s;
+									}
+			}
+		}
+	}
+
+	> ul {
+		> li {
+			float: left;
+			&:hover a {
+                
+			}
+
+			> ul {
+				top: 100%;
+				right: inherit;
+				text-align: left;
+				left: auto;
+				li a:hover {
+                    background-color: $secondary-color;
+				}
+			}
+
+			> a {
+				border-bottom: 0;
+                font-size: 15px;
+                color: #2a2a2a;
+                font-family: $heading-ff;
+				font-weight: 400;
+				letter-spacing: 0.04rem;
+				line-height: 30px;
+				text-transform: capitalize !important;
+                padding: 10px 35px;
+				text-transform: capitalize;
+				-webkit-transition: all 0.4s ease;
+				-o-transition: all 0.4s ease;
+				transition: all 0.4s ease;
+
+				&:hover {
+                    color: #fff;
+					background-color: $primary-color;
+				}
+			}
+		}
+	}
+
+	.menu-icon {
+		background-color: rgba(255, 255, 255, .025);
+		font-size: 26px;
+		height: 80px;
+		line-height: 80px;
+		text-align: center;
+		width: 60px;
+	}
+}

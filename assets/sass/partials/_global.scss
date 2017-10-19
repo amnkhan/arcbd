@@ -6,6 +6,8 @@
 $heading-ff: 'Roboto Slab', serif;
 $body-primary-ff: 'Roboto', sans-serif;
 $body-secondary-ff: 'Lato', sans-serif;
+$primary-color: #187e47;
+$secondary-color: #fa9f42;
 $transition: all 0.3s ease-in-out;
 
 h1, h2, h3, h4, h5, h6 {
@@ -55,7 +57,32 @@ a{
 }
 
 // Button Styles
-
+.btn-common {
+  font-family: $body-primary-ff;
+  font-size: 16px;
+  background-color: #ddd;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 10px 28px;
+  &:hover {
+    color: #fff;
+    background-color: darken( #ddd , 10% ); 
+  }
+}
+.btn-orange {
+  background-color: $secondary-color;
+  &:hover {
+    color: #fff;
+    background-color: darken( $secondary-color , 10% ); 
+  }
+}
+.btn-green {
+  background-color: $primary-color;
+  &:hover {
+    color: #fff;
+    background-color: darken(  $primary-color , 10% ); 
+  }
+}
 
 
 // Sectio Dark
