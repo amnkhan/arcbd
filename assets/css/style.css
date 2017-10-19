@@ -438,7 +438,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   content: "";
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(39, 174, 96, 0.8);
 }
 
 .display-table {
@@ -563,4 +563,245 @@ a.back-to-top:hover, a.back-to-top:focus {
   color: #fff;
   text-transform: uppercase;
   padding: 15px 0;
+}
+
+.single-skill h4 {
+  font-size: 20px;
+  color: #721817;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.single-skill span {
+  font-family: "Lato", sans-serif;
+  color: #721817;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.single-skill p {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+  font-weight: 400;
+  margin: 25px 0;
+}
+
+.single-skill .contact-info {
+  padding: 15px 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.single-skill .contact-info p {
+  line-height: 1.3;
+  margin: 5px 0;
+}
+
+.single-skill .contact-info p span {
+  padding-right: 5px;
+}
+
+.skill-info span.year {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-size: 18px;
+  font-style: inherit;
+  padding: 6px 10px;
+  background-color: #fa9f42;
+}
+
+.skill-info h5 {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.skill-set {
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+.edu-exp-prograss {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.edu-exp-prograss h5 {
+  margin: 0 0 10px;
+  font-weight: 400;
+  color: #721817;
+  font-size: 16px;
+}
+
+.edu-exp-prograss .progress {
+  overflow: visible;
+  height: 6px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  position: relative;
+  background: #e1e1e1;
+  border-radius: 0px;
+  margin-bottom: 22px;
+}
+
+.edu-exp-prograss .progress-bar {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  position: relative;
+  float: right;
+  background-color: #fa9f42;
+}
+
+.edu-exp-prograss .progress-bar span {
+  position: absolute;
+  top: -30px;
+  left: 0;
+  background: #ebebeb;
+  font-style: inherit;
+  width: 41px;
+  height: 21px;
+  border: 1px solid #ccc;
+  color: #222;
+  font-weight: 700;
+  text-align: center;
+  line-height: 18px;
+  float: left;
+}
+
+.edu-exp-prograss .progress-bar span:after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  content: "\f0d7";
+  font-family: FontAwesome;
+  font-size: 12px;
+  color: #ebebeb;
+  bottom: -10px;
+  text-shadow: 0px 1px 0px #ccc;
+}
+
+.single-post-widget {
+  margin-bottom: 50px;
+}
+
+.single-post-widget .media-left {
+  width: 170px;
+}
+
+.single-post-widget .media-left img {
+  width: 100%;
+}
+
+.single-post-widget .media-right a {
+  color: #721817;
+}
+
+.single-post-widget .media-right h2 {
+  font-size: 17px;
+  margin-top: 0;
+  letter-spacing: 0.1rem;
+}
+
+.single-post-widget .media-right h2 a {
+  color: #2a2a2a;
+}
+
+.single-post-widget .media-right .post-info p {
+  font-style: italic;
+  font-size: 13px;
+  font-family: "Lato", sans-serif;
+}
+
+.single-post-widget .media-right p {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-top {
+  background-color: #2f2f2f;
+  color: #fff;
+}
+
+.footer-top a {
+  color: #fff;
+}
+
+.footer-top ul {
+  margin: 0;
+  padding: 0;
+}
+
+.single-footer-widget h2 {
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.single-footer-widget p, .single-footer-widget ul {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+}
+
+.single-footer-widget ul {
+  list-style: none;
+}
+
+.single-footer-widget ul li a {
+  line-height: 1.7;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.single-footer-widget ul li a:hover {
+  opacity: 0.8;
+}
+
+.social-widget .fa {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  background-color: #fff;
+  color: #000;
+  margin-right: 5px;
+}
+
+.social-widget .fa:hover {
+  opacity: 0.9;
+}
+
+.social-widget .fa.fa-facebook {
+  color: #3b5a9a;
+}
+
+.social-widget .fa.fa-twitter {
+  color: #29a9e1;
+}
+
+.social-widget .fa.fa-google-plus {
+  color: #df4b38;
+}
+
+.social-widget .fa.fa-instagram {
+  color: #5e88ab;
+}
+
+.social-widget .fa.fa-youtube {
+  color: #cb312e;
+}
+
+.footer-bottom {
+  background-color: #187e47;
+}
+
+.footer-bottom p {
+  color: #fff;
+  margin: 0;
+  padding: 15px 0;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
 }
