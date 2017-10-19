@@ -1,8 +1,11 @@
 // Single about widget
 .single-about-widget {
+    div:first-child {
+        margin-bottom: 20px;
+    }
     h3 {
         font-size: 18px;
-        margin-top: 5px;
+        margin-top: 10px;
         text-transform: capitalize;
         letter-spacing: 0.1rem;
     }

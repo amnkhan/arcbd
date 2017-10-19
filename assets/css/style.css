@@ -71,7 +71,7 @@ a a:focus {
 
 .section-title h2 {
   font-size: 30px;
-  text-transform: capitalize;
+  text-transform: uppercase;
   position: relative;
 }
 
@@ -424,6 +424,23 @@ a.back-to-top:hover, a.back-to-top:focus {
   background-color: #e4e6e9;
 }
 
+.single-slider {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+}
+
+.single-slider::before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .display-table {
   display: table;
   min-height: 600px;
@@ -433,6 +450,10 @@ a.back-to-top:hover, a.back-to-top:focus {
 .display-table-cell {
   display: table-cell;
   vertical-align: middle;
+}
+
+.hero-text {
+  color: #fff;
 }
 
 .hero-text h2 {
@@ -447,9 +468,13 @@ a.back-to-top:hover, a.back-to-top:focus {
   margin: 30px 0;
 }
 
+.single-about-widget div:first-child {
+  margin-bottom: 20px;
+}
+
 .single-about-widget h3 {
   font-size: 18px;
-  margin-top: 5px;
+  margin-top: 10px;
   text-transform: capitalize;
   letter-spacing: 0.1rem;
 }
@@ -467,6 +492,52 @@ a.back-to-top:hover, a.back-to-top:focus {
   font-style: italic;
   line-height: 1.4;
   margin: 25px 0;
+}
+
+.single-service-widget {
+  width: 20%;
+  float: left;
+  text-align: center;
+  background-color: #fafafa;
+  height: 240px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -o-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+  -webkit-transition: all ease-in-out 0.3s;
+}
+
+.single-service-widget:hover {
+  background-color: #B07775;
+}
+
+.single-service-widget .service-icon {
+  height: 160px;
+  padding-top: 30px;
+}
+
+.single-service-widget h4 {
+  padding: 0 45px;
+}
+
+.single-service-widget h4 a {
+  font-weight: 700;
+  color: #333333;
+  margin-top: 5px;
+  line-height: 23px;
+  text-transform: capitalize;
+}
+
+.color1 {
+  background-color: #95d4c5;
+}
+
+.color2 {
+  background-color: #87c8dd;
+}
+
+.color3 {
+  background-color: #fad269;
 }
 
 .single-cn-widget img {
