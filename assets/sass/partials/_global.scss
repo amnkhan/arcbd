@@ -159,6 +159,14 @@ a.back-to-top{
   max-width: 64px;
 }
 
+.container-fluid.no-gutter,
+.no-gutter>[class*='col-'] {
+    padding-left: 0;
+    padding-right: 0;
+}
+.container-fluid.no-gutter .row {
+    margin: 0px!important;
+}
 
 //Helper Classes
 .section-padding {
