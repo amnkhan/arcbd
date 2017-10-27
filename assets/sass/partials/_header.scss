@@ -125,7 +125,7 @@
 			right: -100%;
 			text-align: left;
 			width: 230px;
-			z-index: 1;
+			z-index: 999;
 			-webkit-animation-name: fadeIn;
             animation-name: fadeIn;
             border-left: 8px solid $secondary-color;
