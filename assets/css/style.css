@@ -470,7 +470,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   content: "";
   top: 0;
   left: 0;
-  background-color: rgba(39, 174, 96, 0.6);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .display-table {

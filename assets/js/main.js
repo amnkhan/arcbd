@@ -3,6 +3,8 @@ $(document).ready(function(){
     $(".owl-carousel").owlCarousel({
         loop:true,
         margin:10,
+        autoplay:true,
+        autoplayTimeout:5000,
         navText: ['<i class="fa fa-angle-left"></i>' , '<i class="fa fa-angle-right"></i>'],
         responsiveClass:true,
         animateOut: 'fadeOut',
