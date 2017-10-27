@@ -44,7 +44,7 @@ a a:focus {
 
 .btn-common:hover {
   color: #fff;
-  background-color: #c4c4c4;
+  background-color: #c4c3c3;
 }
 
 .btn-orange {
@@ -107,7 +107,6 @@ a.back-to-top i {
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
-  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
 }
 
@@ -344,7 +343,6 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .navigation ul ul {
   background-color: #fff;
-  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
   display: none;
   position: absolute;
@@ -352,7 +350,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   right: -100%;
   text-align: left;
   width: 230px;
-  z-index: 1;
+  z-index: 999;
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
   border-left: 8px solid #fa9f42;
@@ -434,6 +432,30 @@ a.back-to-top:hover, a.back-to-top:focus {
   background-color: #e4e6e9;
 }
 
+.hero-section .owl-nav div {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #fa9f42;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  opacity: 0.7;
+  transition: all 0.3s ease-in-out;
+}
+
+.hero-section .owl-nav div:hover {
+  opacity: 1;
+}
+
+.hero-section .owl-nav .owl-next {
+  left: auto;
+  right: 0;
+}
+
 .single-slider {
   background-size: cover;
   background-position: center;
@@ -448,7 +470,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   content: "";
   top: 0;
   left: 0;
-  background-color: rgba(39, 174, 96, 0.8);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .display-table {
@@ -510,9 +532,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   text-align: center;
   background-color: #fafafa;
   height: 240px;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  -o-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
   -webkit-transition: all ease-in-out 0.3s;
 }
@@ -561,8 +581,6 @@ a.back-to-top:hover, a.back-to-top:focus {
 .single-cn-widget div {
   display: block;
   background-color: #187e47;
-  -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
@@ -648,7 +666,6 @@ a.back-to-top:hover, a.back-to-top:focus {
 .edu-exp-prograss .progress {
   overflow: visible;
   height: 6px;
-  -webkit-box-shadow: none;
   box-shadow: none;
   position: relative;
   background: #e1e1e1;
@@ -657,7 +674,6 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .edu-exp-prograss .progress-bar {
-  -webkit-box-shadow: none;
   box-shadow: none;
   position: relative;
   float: right;
@@ -700,7 +716,6 @@ a.back-to-top:hover, a.back-to-top:focus {
   width: 100%;
   height: 100%;
   min-height: 360px;
-  -webkit-box-shadow: 0px 0px 98px rgba(0, 30, 59, 0.15);
   box-shadow: 0px 0px 98px rgba(0, 30, 59, 0.15);
 }
 
@@ -731,7 +746,6 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .contact-form-area input.form-control:focus, .contact-form-area textarea.form-control:focus {
   outline: 0 0 0 0;
-  -webkit-box-shadow: 0px 0px 0px 0px;
   box-shadow: 0px 0px 0px 0px;
 }
 

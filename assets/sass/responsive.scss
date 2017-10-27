@@ -5,14 +5,139 @@
 }
 // Tablet Layout
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
- 
     
 }
 // Small mobile layout
 @media only screen and (max-width: 767px) { 
- 
+    // header section
+    .header-section {
+        // top header
+        .top-header {
+            text-align: center;
+            .topbar-social-icons {
+                text-align: center;
+                margin-bottom: 10px;
+            }
+        }
+        // logo
+        .bottom-header {
+            padding-top: 20px;
+            .header-cta {
+                margin-top: 20px;
+                .btn-common {
+                    margin-top: 20px;
+                    text-align: center;
+                }
+            }
+        }
+        .logo {
+            a {
+                img {
+                    width: 150px;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+
+    // hero section
+    .hero-section {
+        // hero text
+        .display-table {
+            min-height: 400px;
+        }
+        .owl-nav div {
+            width: 35px;
+            height: 35px;
+            line-height: 35px;
+        }
+        .hero-text {
+            padding: 0 30px;
+            h2 {
+                font-size: 20px;
+            }
+            p {
+                font-size: 13px;
+                margin: 20px 0;
+            }
+            .btn {
+                display: block;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    // section title
+    .section-title {
+        h2 {
+            font-size: 18px;
+        }
+    }
+    // about us section
+    .about-us-section {
+        .single-about-widget {
+            margin-bottom: 20px;
+            h2 {
+                font-size: 18px;
+            }
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+
+    // service section
+    .single-service-widget {
+        width: 100%;
+        h4 {
+            font-size: 16px;
+        }
+    }
     
+    // councelling section
+    .single-cn-widget {
+        margin-bottom: 50px;
+        div {
+            h2 {
+                font-size: 14px;
+            }
+        }
+    }
+
+    // skill section
+    .skill-section {
+        .single-skill {
+            margin-bottom: 50px;
+        }
+    }
+
+    // post section
+    .recent-post-section {
+        .single-post-widget {
+            .media-left {
+                width: auto;
+                display: block;
+                margin-bottom: 15px;
+                a {
+                    img {
+                        width: 100%;
+                        height: 150px;
+                    }
+                }
+            }
+        }
+    }
+
+    // contact form area
+    .contact-form-area {
+        padding: 30px;
+    }
+
+    // footer
+    .single-footer-widget {
+        text-align: center;
+    }
 }
+
 // Wide Mobile layout
 @media only screen and (min-width: 480px) and (max-width: 767px) { 
 

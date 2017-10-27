@@ -1,7 +1,33 @@
 // Hero area
 .hero-section {
     background-color: #e4e6e9;
+
+    // owl navigation
+    .owl-nav {
+        div {
+            position: absolute;
+            width: 55px;
+            height: 55px;
+            line-height: 55px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: $secondary-color;
+            color: #fff;
+            text-align: center;
+            font-size: 24px;
+            opacity: 0.7;
+            transition: $transition;
+            &:hover {
+                opacity: 1;
+            }
+        }
+        .owl-next {
+            left: auto;
+            right: 0;
+        }
+    }
 }
+
 .single-slider {
     background-size: cover;
     background-position: center;
@@ -14,7 +40,7 @@
         content: "";
         top: 0;
         left: 0;
-        background-color: rgba(39, 174, 96, 0.8);
+        background-color: rgba(0, 0, 0, 0.6);
     }
 }
 .display-table {
